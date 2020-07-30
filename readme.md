@@ -1,4 +1,6 @@
-This is a example app made for the Lyft Interview Test
+This is a example app made for the Lyft Interview Test, specifically for the Lyft Software Engineering Apprenticeship
+
+Details of the test can be found on
 https://lyft-interview-test.glitch.me/
 
 App uses node and express
