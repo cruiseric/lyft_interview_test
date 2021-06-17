@@ -5,9 +5,11 @@ https://lyft-interview-test.glitch.me/
 
 App uses node.js and express
 
-Further implementation will include an HTML form to send a string and return the desired output for ease of use. More robust testing may written for practice.
+Currently, project is two separate components acting independently. HTML component is very basic. Future implementation will have the HTML form actually POST and return a JSON object.
 
-All testing done on Postman
+More robust testing may written for practice.
+
+Testing done on Postman
 
 To begin, clone this repo and enter the following commands
 
