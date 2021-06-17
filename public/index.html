@@ -1,13 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>LYFT Apprenticeship Project</title>
-  </head>
-  <body>
-    <h1>String Cutter</h1>
-    <form>
-      <input type="text" placeholder="String to cut" />
-      <input type="submit" value="Submit" />
-    </form>
-  </body>
+
+<head>
+  <title>LYFT Apprenticeship Project</title>
+</head>
+
+<body>
+  <h1>String Cutter</h1>
+  <form>
+    <input type="text" placeholder="String to cut" id="a" />
+    <button type="button" onclick="stringCutter()">Cut String</button>
+  </form>
+  <script>
+    function stringCutter() {
+      let str = document.getElementById('a').value
+      let newStr = "";
+      for (let i = 2; i < str.length; i += 3) {
+        newStr += str[i];
+      }
+      alert(newStr)
+
+    };
+  </script>
+</body>
+
 </html>
